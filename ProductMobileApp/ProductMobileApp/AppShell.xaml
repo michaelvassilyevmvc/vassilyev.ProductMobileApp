@@ -73,8 +73,10 @@
     </Shell.Resources>
 
    
-    <FlyoutItem Title="Equipment" Icon="icon_about.png">
-        <ShellContent ContentTemplate="{DataTemplate local:ProductPage}" Route="ProductPage" />
+    <FlyoutItem Title="Product List" Icon="icon_about.png">
+        <ShellContent 
+            ContentTemplate="{DataTemplate local:ProductPage}" 
+            Route="ProductPage" />
     </FlyoutItem>
 
 </Shell>
